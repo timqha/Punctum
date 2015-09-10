@@ -1,0 +1,10 @@
+{
+  "name": "Dots",
+  "version": "0.0.1",
+  "description": "A Node.js",
+  "dependencies": {
+    "express": "*",
+    "socket.io" : "*"
+  },
+  "engine": "node >=0.6.x"
+}
