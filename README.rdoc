@@ -1,0 +1,13 @@
+Quick start this app.
+Node.js testing version 0.10.25
+
+https://nodejs.org/en/download/
+
+npm install -g bower
+https://www.npmjs.com/package/npm
+
+npm install
+bower install
+
+node server.js
+open browser localhost:3000

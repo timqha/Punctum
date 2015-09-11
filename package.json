@@ -6,5 +6,6 @@
     "express": "*",
     "socket.io" : "*"
   },
-  "engine": "node >=0.6.x"
+  "engine": "node >=0.6.x",
+  "start": "http-server -a 0.0.0.0 -p 3000"
 }
