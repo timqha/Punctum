@@ -4,7 +4,8 @@
 <div class="col-md-6">
 	<div class="row">
 		<div><h1>{{message.color}}</h1></div>
-   <h2><span ng-show="app.data.playerStep">Ходит игрок: </span> {{app.data.playerStep}} </h2>
+        <div flash-message="5000" ></div>
+        <h2><span ng-show="app.data.playerStep">Ходит игрок: </span> {{app.data.playerStep}} </h2>
     <div id="#message"></div>
     </div>
     <div class="row"><canvas class="minecanvas" ng-click="addOnClick($event)" id="dots">
@@ -13,3 +14,4 @@
 <div class="col-md-3">
     Красные захватили: {{sore.red}}
 </div>
+
